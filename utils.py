@@ -384,6 +384,8 @@ class TwoDimensionalCollision(object):
 
         self.v3x = v3x
         self.v3y = v3y
+        self.v3x_label.value = v3x
+        self.v3y_label.value = v3y
 
         self.x1s = x1s
         self.y1s = y1s
