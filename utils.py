@@ -177,8 +177,8 @@ class OneDimensionalCollision(object):
         self.col_ax.clear()
         self.col_ax.set_ylim(-5, 5)
         self.col_ax.set_xlim(
-            min(np.min(self.x1s), np.min(self.x2s)),
-            max(np.max(self.x1s), np.max(self.x2s)),
+            1.25 * min(np.min(self.x1s), np.min(self.x2s)),
+            1.25 * max(np.max(self.x1s), np.max(self.x2s)),
         )
 
         self.col_ax.set_aspect('equal')
